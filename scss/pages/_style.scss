@@ -1,7 +1,10 @@
 .header{
-    &__container{
-    border-bottom: 2px solid $main-color;
-    }
+    position:fixed;
+    top:0px;
+    width: 100%;
+    z-index: 10001;
+    background: rgb(255, 250, 250);
+    border-bottom:3px solid #14A0F8;
     &__contact{
         margin-top: 3px;
         font-size: 16px;
@@ -109,6 +112,58 @@
         font-size:30px;
         align-items: center;
     }
+    &__offcanvas-card{
+        max-width: 350px;
+        
+    }
+    &__toggle-div{
+        padding: 0px;
+    }
+    &__toggle-list{
+        margin-top:0px;
+        text-decoration: none;
+        list-style-type: none;
+        width: 100%; 
+        padding: 0px; 
+    }
+   
+    &__toggle-item{
+        padding-left: 30px;
+    }
+    &__toggle-item:hover {
+        background: rgba(0, 0, 0, 0.135);
+        border-radius: 10px;
+    }
+   
+    &__toggle-navlink{
+        padding: 0px;
+        color: #000;
+        font-size: 22px;
+        padding-left: 5px;
+        
+    }
+    &__toggle-navbetween{
+        border-radius: 10px;
+    }
+    &__toggle-back{
+        width: 100%;
+
+    }
+    &__toggle-back:hover{
+        background: rgba(0, 0, 0, 0.135);
+        border-radius: 10px;
+        color: #000;
+    }
+    &__menu-text{
+        margin-top: 20px;
+    }
+    &__fixxed{
+        margin-top: 4px;
+    }
+    &__setting{
+        margin-top: -5px;
+    }
+
     //dropdown scss
     &__dropdown-list{
         opacity: 0;
@@ -157,6 +212,8 @@
 }
 .hero{
     position: relative;
+    top: 120px;
+    margin-bottom: 150px;
     &__prase{
         position: absolute;
         z-index: 1001;
@@ -267,7 +324,6 @@
     &__lists:hover &__btn{
         background: rgba(0, 0, 0, 0.363);
         color: #14A0F8;
-
     }
 }
 .limited{
@@ -882,7 +938,7 @@
         }
        
         &__prev{
-            top: -50px;
+            top: -10px;
         }
     } 
     .carousel{
@@ -1197,6 +1253,8 @@
         }
     }
     .hero{
+         top: 105px;
+
         &__prase{
             margin-top: 0px;
             margin-left: 60px;
@@ -1370,6 +1428,7 @@
         
     }
     .hero{
+        top: 100px;
         &__prase{
             margin-top: 0px;
             margin-left: 50px;
