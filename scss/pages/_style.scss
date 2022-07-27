@@ -419,9 +419,18 @@
         border: 3px solid #14A0F8;
         border-radius: 10px;
     }
-    &__item:hover &__payme{
+    &__paynet{
+        width: 100px;
+        border: 3px solid #14A0F8;
+        border-radius: 10px;
+    }
+
+    &__payme:hover{
         border: 3px solid red;
-    }   
+    }
+    &__paynet:hover{
+        border: 3px solid red;
+    }     
 }
 .maps{
 
@@ -519,7 +528,12 @@
         margin: 0px;
         text-align: center;   
     }
+    &__icon:hover{
+        color: red;
+
+    }
 }
+
 @media only screen and (max-width:1440px){
     .hero{
         &__indicator{
@@ -989,11 +1003,11 @@
     }
     .services{
         &__textname{
-            font-size: 30px;
+            font-size: 28px;
             margin-right: 10px;
         }
         &__textnametwo{
-            font-size: 30px;
+            font-size: 28px;
         }
 
     }        
@@ -1093,6 +1107,11 @@
             margin-right: 30px;
             margin-left: 30px;
         }
+        &__lists:hover{
+            width: 310px;
+            box-shadow: 0px 0px 5px 5px #000;
+            background-color: #2196F3;
+            transition: width 0.3s cubic-bezier(0, 0, 1, 1)
     }
     .limited{ 
         &__container{
@@ -1197,6 +1216,7 @@
 
     } 
 }
+
 @media only screen and (max-width:480px){
     .hero{
         &__indicator{
@@ -1313,7 +1333,13 @@
             font-size: 14px;  
         }
     } 
+    .footer{
+        &__contact{
+            margin-left: -30px;
+        }
+    }
 }
+
 @media only screen and (max-width:400px){
     .hero{
         &__indicator{
@@ -1340,6 +1366,7 @@
         &__list{
             padding: 0px;
         }
+      
         margin-top: 30px;
         &__lists{
             width: 300px;
@@ -1347,8 +1374,8 @@
             border: 1px solid #000;
             border-radius: 10px;
             text-align: center;
-            margin-right: 10px;
             margin-left: 10px;
+            margin-right: 0;
         }
         &__title{
             font-size: 24px;
@@ -1380,6 +1407,7 @@
         }
         &__contact{
             font-size: 18px;
+            margin-left: 40px;
         }
         &__phone{
             align-items: center;
@@ -1391,6 +1419,7 @@
         }
     } 
 }
+
 @media only screen and (max-width:376px){
     .header{
         &__offcanvas{
@@ -1473,7 +1502,7 @@
     
     } 
     .traffic{
-        margin-top: 20px;
+        margin-top: 0px;
         &__textname{
             font-size: 16px;
             letter-spacing: 3px;
@@ -1482,19 +1511,21 @@
         &__textnametwo{
             font-size: 16px;
             letter-spacing: 3px;
-
         }
     }
     .services{
         &__textname{
             font-size: 16px;
-            margin-right: 0px;
+            margin-right: 5px;
         }
         &__textnametwo{
             font-size: 16px;
         }
-
+    }
+    .footer{
+        &__contact{
+            margin-left: 30px;
+        }
     }
 }
-
-
+}
