@@ -1,16 +1,29 @@
 .license{
     margin-top: 200px;
 
-    &__text{
+    &__textul{
         margin: 0px;
         margin-bottom: 50px;
-        font-weight: 400;
-        font-size: 28px;
-        text-align: center;
+        font-weight: 500;
+        font-size: 38px;
         letter-spacing: 3px;
+        margin-right: 10px;
     }
+    &__h2{
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
     &__span{
         color: #14A0F8;
+        margin: 0px;
+        margin-bottom: 50px;
+        font-weight: 500;
+        font-size: 38px;
+        letter-spacing: 3px;
     }
     &__img{
         width: 600px;
@@ -150,6 +163,22 @@
 }
 @media only screen and ( max-width: 750px){
     .license{
+        &__textul{
+            margin: 0px;
+            margin-bottom: 50px;
+            font-weight: 500;
+            font-size: 34px;
+            letter-spacing: 3px;
+            margin-right: 10px;
+        }
+        &__span{
+            color: #14A0F8;
+            margin: 0px;
+            margin-bottom: 50px;
+            font-weight: 500;
+            font-size: 34px;
+            letter-spacing: 3px;
+        }
 
         &__img{
             width: 500px;
@@ -173,6 +202,12 @@
             border: 5px solid red;
             border-radius: 20px;
         }
+        &__textul{
+            font-size: 30px;
+        }
+        &__span{
+            font-size: 30px;
+        }
     }
 
 }
@@ -187,7 +222,10 @@
             border: 5px solid red;
             border-radius: 20px;
         }
-        &__text{
+        &__textul{
+            font-size: 24px;
+        }
+        &__span{
             font-size: 24px;
         }
     }
@@ -204,6 +242,12 @@
             border: 5px solid red;
             border-radius: 20px;
         }
+        &__textul{
+            font-size: 20px;
+        }
+        &__span{
+            font-size: 20px;
+        }
     }
 
 }
@@ -217,6 +261,12 @@
             margin-bottom: 50px;
             border: 5px solid red;
             border-radius: 20px;
+        }
+        &__textul{
+            font-size: 18px;
+        }
+        &__span{
+            font-size: 18px;
         }
     }
 
@@ -232,6 +282,12 @@
             border: 5px solid red;
             border-radius: 20px;
         }
+        &__textul{
+            font-size: 16px;
+        }
+        &__span{
+            font-size: 16px;
+        }
     }
 
 }
@@ -245,6 +301,12 @@
             margin-bottom: 50px;
             border: 5px solid red;
             border-radius: 20px;
+        }
+        &__textul{
+            font-size: 14px;
+        }
+        &__span{
+            font-size: 14px;
         }
     }
 

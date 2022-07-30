@@ -1,4 +1,4 @@
-const card = document.querySelector(".card__inner");
+const card = document.querySelector(".elewen");
 const cardone = document.querySelector(".one");
 const cardtwo = document.querySelector(".two");
 const cardthree = document.querySelector(".three");
