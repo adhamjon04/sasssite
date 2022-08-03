@@ -668,6 +668,50 @@ const langArr={
     "ofcanvas":{
         "uz":"LITSENZIYALANGAN",
         "ru":"ЛИЦЕНЗИРОВАНЫ"
+    },
+    "lab":{
+        "uz":"Asosiy menyu",
+        "ru":"Главное меню"
+    },
+    "labone":{
+        "uz":"Bosh sahifa",
+        "ru":"Главная страница"
+    },
+    "labtwo":{
+        "uz":"Tariflar",
+        "ru":"Тарифы"
+    },
+    "labthree":{
+        "uz":"Jisminiy shaxslarga",
+        "ru":"Физический лица"
+    },
+    "labfour":{
+        "uz":"Yuridik shaxslarga",
+        "ru":"Юридические лица"
+    },
+    "labfifte":{
+        "uz":"Sahifalar",
+        "ru":"Страницы"
+    },
+    "labsex":{
+        "uz":"Xizmatlar",
+        "ru":"Сервисы"
+    },
+    "labseven":{
+        "uz":"FAQs",
+        "ru":"ФАҚc"
+    },
+    "labeigth":{
+        "uz":"Ommaviy oferta",
+        "ru":"Публичная оферта"
+    },
+    "labnine":{
+        "uz":"Litsenziyalar",
+        "ru":"Лицензии"
+    },
+    "labten":{
+        "uz":"Bog'lanish",
+        "ru":"Контакт"
     }
     
 }
