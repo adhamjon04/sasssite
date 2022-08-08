@@ -201,8 +201,8 @@
               <div class="modal-body">
                 <p class="text-center justify-content-center">Email va Parol</p>
                 <form action="" class="submitbtn">
-                  <input class="form-control email my-2" type="text" name="email" placeholder="Email" >
-                  <input class="form-control password my-2" type="text" name="password" placeholder="Password">
+                  <input class="form-control email my-2" type="text" name="email" placeholder="Login" >
+                  <input class="form-control password my-2" type="password" name="password" placeholder="Password">
                   <button class="btn btn-primary " type="submit">Send</button>
                 </form>
                
@@ -255,6 +255,14 @@
             <span class="visually-hidden">Next</span>
           </button>
         </div>
+        <!--modal message-->
+        <div class="hero__modal" id="modal">
+          <button class="hero__close-btn" id="modalCloseBtn">&times;</button>
+          <div class="hero__modal-wrapper">
+            <p class="hero__modal-text" id="text"></p>
+          </div>
+        </div>
+        <!--modal message end-->
       </div>
     </section>
     <!-- Traffic section -->
@@ -464,8 +472,8 @@
       </div>
 
     </section> 
-    <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/index.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/lang.js"></script>
     <script src="js/applang.js"></script>
   </body>

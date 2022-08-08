@@ -201,8 +201,11 @@
     <section class="admincss">
       <h1 class="admincss__h1">Admin panel</h1>
     <div class="input-group admincss__div ">
-      <span class="input-group-text">With textarea</span>
-      <textarea class="form-control admincss__input" aria-label="With textarea"></textarea>
+      <span class="input-group-text admincss__textarea">With textarea</span>
+      <form id="adminSubmitForm">
+        <textarea class="form-control admincss__input" aria-label="With textarea"></textarea>
+        <button class="admincss__btn" type="submit" id="submitBtn">submit</button>
+      </form>
     </div>
     </section>
     
@@ -268,6 +271,7 @@
     </section> 
     <script src="../js/bootstrap.bundle.min.js"></script>
     <script src="../js/index.js"></script>
+    <script src="../js/admin.js"></script>
     <script src="../js/lang.js"></script>
     <script src="../js/applang.js"></script>
   </body>
